@@ -23,9 +23,11 @@ int main()
    {
    case 1:
       printf("Enter two numbers: \n");
+       
+      
       scanf("%ld %ld", &num1, &num2);
       x = num1 + num2;
-      printf("Sum = %ld", x);
+      printf("Sum of Numbers: %ld", x);
       break;
    case 2:
       printf("Enter two numbers: \n");
